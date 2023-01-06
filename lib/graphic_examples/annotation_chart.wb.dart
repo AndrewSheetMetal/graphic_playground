@@ -126,13 +126,13 @@ Widget annotationChart(BuildContext context) {
       ),
       //? How does CustomAnnotation work?
       wb.Option(
-        label: "Custom Annoation",
+        label: "Custom Annotation",
         value: CustomAnnotation(
           values: ['Cardigans', 20],
           renderer: (Offset o, Size s) {
             var textPainter = TextPainter(
               text: const TextSpan(
-                text: "Mein Text",
+                text: "Rotated Text",
                 style: TextStyle(color: Colors.redAccent),
               ),
               textDirection: TextDirection.ltr,
